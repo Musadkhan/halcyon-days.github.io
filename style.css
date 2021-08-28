@@ -1,0 +1,141 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* border: 1px solid red; */
+}
+.Home{
+    background-image: url('images/HomeBG.png');
+    height: 100vh;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* text-align: center; */
+}
+
+.Menu{
+    width: 5vw;
+    position: absolute;
+    z-index: 100;
+    right: 0;
+    margin: 7vh;
+    cursor: pointer;
+}
+.Home h1{
+    font-size:7vh;
+    font-weight:100;
+}
+.HomeInfo{
+    width: 90vw;
+    text-align: center;
+}
+.HomeInfo h3{
+    color: silver;
+    font-weight: 100;
+    font-size: 4vh;
+    margin-top: 1%;
+}
+
+.HomeInfo button{
+    font-size:100%;
+    margin-top: 4%;
+    height: 7vh;
+    width: 15vw;
+    color: white;
+    background-color:darkturquoise;
+    border: none;
+    border-radius: 10%;
+    cursor: pointer;
+}
+.Spanfirst{
+    letter-spacing: 3px;
+    color:black;
+}
+.Spansecond{
+    letter-spacing: 3px;
+    color: silver;
+}
+
+@media screen and (max-width:1050px){
+    .HomeInfo h3{
+        font-size: 3vh;
+    }
+}
+
+@media screen and (max-width:700px){
+    .HomeInfo button{
+        width: 60%;
+        /* height: 20vh; */
+    }
+}
+@media screen and (max-width:350px)
+{
+    .Home h1{
+        font-size: 4vh;
+    }
+    .HomeInfo h3{
+        font-size: 2vh;
+    }
+}
+/* ---------------------------------------------------------------------------------------------------------- */
+
+
+/* ---------------------------Second Phase------------------------------------------------------------------- */
+
+.SecondPhase{
+    height: 30vh;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    text-align: center;
+    padding:7%;
+
+}
+.Design{
+    /* background-color: whitesmoke; */
+    /* padding-top: 3%; */
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.descParent{
+    margin-top: 3%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.desc{
+    width: 60%;
+    color: silver;
+}
+
+@media screen and (max-width:800px){
+    .SecondPhase{
+        height: 35vh;
+    }
+}
+@media screen and (max-width:650px){
+    .SecondPhase{
+        height: 45vh;
+    }
+}
+@media screen and (max-width:500px){
+    .SecondPhase{
+        height: 50vh;
+    }
+    .desc{
+        width: 80%;
+    }
+}
+@media screen and (max-width:350px){
+    .SecondPhase{
+        height: 60vh;
+    }
+    .desc{
+        width: 90%;
+    }
+}
+
