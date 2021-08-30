@@ -138,4 +138,95 @@
         width: 90%;
     }
 }
+/* -------------------------------Third Phase----------------------------------------- */
 
+.ThirdPhase{
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.ThirdPhase h3{
+    padding-top: 10vh;
+    text-align: center;
+}
+
+.CardParent{
+    width:70vw;
+    /* border: 1px solid red; */
+    display: flex;
+    /* justify-content: center;
+    align-items: center; */
+    padding-bottom: 10vh;
+    padding-top: 5vh;
+}
+.Card{
+    /* border: 1px solid green; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.Card .Insider{
+    /* border: 1px solid red; */
+}
+
+@media screen and (max-width:800px){
+    .CardParent{
+        display:flex;
+        flex-direction: column;
+    }
+    .Card{
+        display: flex;
+        flex-direction: row;
+        box-shadow: 10px 10px 15px 3px dodgerblue;
+        margin: 15px 0;
+        padding: 10px;
+    }
+    .Card .Insider{
+       /* border: 2px solid black; */
+       /* width:80%; */
+    }
+    .Insider img{
+        
+        width: 100%;
+    }
+}
+@media screen and (max-width:500px){
+    .Design{
+        display: none;
+    }
+}
+@media screen and (max-width:460px){
+    .Card{
+        font-size:70%;
+    }
+}
+
+/* ---------------------------------------------------------------------------------------------------------- */
+.ForthPhase{
+    height:100vh;
+    border: 1px solid red;
+    display: flex;
+}
+.ForthLeft{
+    border: 5px solid black;
+    width: 50%;
+    height: 100%;
+}
+.ForthLeft img{
+    width: 100%;
+    height: 100%;
+}
+.ForthRight{
+    border: 3px solid blue;
+    width: 50%;
+    height: 100%;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+}
